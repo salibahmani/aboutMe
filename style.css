@@ -1,6 +1,6 @@
 :root {
   --primary-color: #0a2647;
-  --secondary-color: #ffe5f1;
+  --secondary-color: rgb(238, 235, 235);
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 body {
@@ -47,11 +47,6 @@ p {
 .weatherimage {
   max-width: 300px;
 }
-.homepage-link {
-  color: var(--primary-color);
-  text-align: center;
-  display: block;
-}
 
 .email-link {
   display: flex;
@@ -63,4 +58,7 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+.contact {
+  box-shadow: var(--box-shadow);
 }
